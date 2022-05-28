@@ -1,0 +1,12 @@
+#status{
+    text-align: left,top;
+    border-radius: 25%;
+    background: lightskyblue;
+}
+#point_button{
+    border-radius: 30px;
+}
+body{
+    background: plum;
+    text-align: center;
+}

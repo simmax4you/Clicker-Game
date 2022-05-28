@@ -1,0 +1,12 @@
+<!doctype html>
+    <head>
+        <title>Clicker Game</title>
+        <script src="main.js"></script>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <section id="status"><p>status:</p><p>PPC(point per click):</p><p id="ppc">1</p><p>current points:</p><p id="output_points">0</p></section>
+        <button onclick="add_point()" id="point_button">+</button>
+        <div class="collapse"><span id="upgrade_line"><button onclick="ppc_upgrade()">Upgrade ppc<p id="ppcu_cost">50</p></button><button onclick="multiply_ppc()">upgrade multiplier<p id="ppcu2">100</p></button></span></div>
+    </body>
+</html>
